@@ -1,0 +1,11 @@
+---
+- name: tets
+  hosts: all
+  
+  vars:
+    sourc: bar
+    destin: bar
+  tasks:
+    - copy:
+        src: "{{ sourc }}"
+        dest:  "{{ destin }}"
