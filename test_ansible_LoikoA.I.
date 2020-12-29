@@ -14,7 +14,6 @@
 12. tasks - действие, выполняемые плейбуком
 handlers - действие, которое выполняется только тогда, когда вызывается событие
 
-В чем отличие ansible plugin от модуля?
 
-Создать ansible playbook для копирования нескольких файлов, имена файлов с путем указываем в командной строке как параметр.
+14. ansible-playbook test.yml -e "sourc=/home/devops/test/test1.txt destin=/home/devops/"
 
