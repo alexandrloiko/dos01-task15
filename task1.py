@@ -1,22 +1,14 @@
-string1 = str(input('Enter 1 string: '))
-string2 = str(input('Enter 2 string: '))
+string1 = str(input('Enter 1 string: '))  ##ввод первой строки
+string2 = str(input('Enter 2 string: '))  ##ввод второй строки
 
-
-
-
-#print(list(string1))
-#print(list(string2))
 id1=0
-
-
-for i in string1:
-    id1+=1 
-    id2=0
-    #print (string1.index(i))  
+for i in string1:    ##перебор первой тсроки
+    id1+=1   ##для подсчета позиции символа в первой строке
+    id2=0    ##обнуление счетчика для второй строки
     for j in string2:
-        id2+=1
-        if i == j:
-            print (i,'- первая строка=',id1,',вторая строка=',id2)
+        id2+=1  ##для подсчета позиции символа во второй строке
+        if i == j:  ##проверка совпадения символов
+            print (i,'- первая строка=',id1,',вторая строка=',id2)  ##вывод 
           
             
 
