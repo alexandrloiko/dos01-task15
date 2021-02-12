@@ -1,5 +1,10 @@
-count_cup = int(input('Count cup: '))  ##ввод количества чашек
+count_str = int(input('Count string: '))
+i = 1
 
-count_akc = count_cup//6 ##вычисление количества акционных чашек
+#for i in range(count_str):
+ #   print('*'*i)
+while i <= count_str:
+    print('*'*i)
+    i+=1
+#print ('\n',count_str)
 
-print('Count full cup: ',count_cup+count_akc) ##вывод, где выводится сумма кол-во введенных и акционных

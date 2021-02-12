@@ -1,8 +1,23 @@
-text = str(input('Enter string: '))    ##ввод строки
+string1 = str(input('Enter 1 string: '))
+string2 = str(input('Enter 2 string: '))
 
-dt = {}   ##создание словаря
-for i in text:  ##цикл для перебора всех гласных букв
-    if i in ['a','e','i','o','u','y']:   ##перебор гласных
-        dt.setdefault(i,0)  ##добавления совпадающих гласных в словарь
-        dt[i]+=1  ##счетчик повторения гласных в строке
-print(dt) ##вывод
+
+
+
+#print(list(string1))
+#print(list(string2))
+id1=0
+
+
+for i in string1:
+    id1+=1 
+    id2=0
+    #print (string1.index(i))  
+    for j in string2:
+        id2+=1
+        if i == j:
+            print (i,'- первая строка=',id1,',вторая строка=',id2)
+          
+            
+
+
