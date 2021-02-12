@@ -1,10 +1,8 @@
-count_str = int(input('Count string: '))
+count_str = int(input('Count string: ')) ##ввод количества строк
 i = 1
 
-#for i in range(count_str):
- #   print('*'*i)
-while i <= count_str:
+while i <= count_str:  ##запуск цикла для вывода 
     print('*'*i)
     i+=1
-#print ('\n',count_str)
+
 
