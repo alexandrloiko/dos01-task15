@@ -1,8 +1,8 @@
-text = str(input('Enter string: '))
+text = str(input('Enter string: '))    ##ввод строки
 
-dt = {}
-for i in text:
-    if i in ['a','e','i','o','u','y']:
-        dt.setdefault(i,0)
-        dt[i]+=1
-print(dt)
+dt = {}   ##создание словаря
+for i in text:  ##цикл для перебора всех гласных букв
+    if i in ['a','e','i','o','u','y']:   ##перебор гласных
+        dt.setdefault(i,0)  ##добавления совпадающих гласных в словарь
+        dt[i]+=1  ##счетчик повторения гласных в строке
+print(dt) ##вывод
